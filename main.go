@@ -3,12 +3,33 @@ package main
 import (
 	"fmt"
 
+	"github.com/gostjoke/Golang-Udemy/Iota"
 	"github.com/gostjoke/Golang-Udemy/Puppy"
+	"github.com/gostjoke/Golang-Udemy/ValueType"
 )
 
-func main() {
+func PuppyBark() {
 	Puppy.Bark()
 	d := Puppy.Dog{Name: "Lucky"}
 	d.Speak()
-	fmt.Println("This is a simple Go program demonstrating package usage.")
+}
+
+func IotaExample() {
+	Iota.Iota()
+	ValueType.ValueTypeF()
+}
+
+func main() {
+	ch := make(chan int)
+
+	go func() {
+		ch <- 1
+		ch <- 2
+		ch <- 3
+		close(ch) // 關閉 channel 才能 for range
+	}()
+
+	for val := range ch {
+		fmt.Println(val)
+	}
 }

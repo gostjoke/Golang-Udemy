@@ -1,10 +1,10 @@
-package main
+package ValueType
 
 import "fmt"
 
 var y int
 
-func main() {
+func ValueTypeF() {
 	fmt.Println("y")
 	z := 42
 	z, b := 43, 11

@@ -1,4 +1,4 @@
-package main
+package Iota
 
 import "fmt"
 
@@ -19,9 +19,4 @@ func Iota() {
 
 	fmt.Println(c0, c1, c2, c3)
 	fmt.Println(d0, d1, d2, d3)
-}
-
-func main() {
-	Iota()
-	fmt.Println("Iota Example Completed")
 }

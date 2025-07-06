@@ -6,7 +6,7 @@
 // @Description : Description
 // =======================================
 
-package main
+package PrintDecimalHex
 
 import "fmt"
 
@@ -22,8 +22,4 @@ func PrintDecimalHex() {
 	fmt.Printf("Binary: %b, Hexadecimal: %X, HEX: %#X\n", e, e, e)
 	fmt.Printf("Binary: %b, Hexadecimal: %X, HEX: %#X\n", f, f, f)
 
-}
-
-func main() {
-	PrintDecimalHex()
 }

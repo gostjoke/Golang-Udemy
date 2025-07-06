@@ -1,4 +1,4 @@
-package main
+package MeasureBit
 
 import "fmt"
 
@@ -16,7 +16,7 @@ const (
 	// YB
 )
 
-func MeasureBit() {
+func MeasureBitFunc() {
 	fmt.Printf("1 KB = %d bytes\n", KB)
 	fmt.Printf("1 MB = %d bytes\n", MB)
 	fmt.Printf("1 GB = %d bytes\n", GB)
@@ -30,11 +30,5 @@ func MeasureBit() {
 	fmt.Printf("a & b = %d (binary: %b)\n", a&b, a&b) // Bitwise AND
 	fmt.Printf("a | b = %d (binary: %b)\n", a|b, a|b) // Bitwise OR
 	fmt.Printf("a ^ b = %d (binary: %b)\n", a^b, a^b) // Bitwise XOR
-
-}
-
-func main() {
-	MeasureBit()
-	fmt.Println("Measure Bit Example Completed")
 
 }
