@@ -1,4 +1,4 @@
-package main
+package Puppy
 
 import "fmt"
 
@@ -7,11 +7,11 @@ func Bark() string {
 	return "Woof!"
 }
 
-type Dog {
+type Dog struct {
 	Name string
 }
 
-unc (d Dog) Speak() {
+func (d Dog) Speak() {
 	sound := Bark()
 	fmt.Println(d.Name, "says:", sound)
 }
