@@ -3,9 +3,11 @@ package main
 import (
 	"fmt"
 
+	controlflow "github.com/gostjoke/Golang-Udemy/ControlFlow"
 	"github.com/gostjoke/Golang-Udemy/Iota"
 	"github.com/gostjoke/Golang-Udemy/Puppy"
 	"github.com/gostjoke/Golang-Udemy/ValueType"
+	"github.com/gostjoke/Golang-Udemy/dictexample"
 )
 
 func PuppyBark() {
@@ -19,7 +21,7 @@ func IotaExample() {
 	ValueType.ValueTypeF()
 }
 
-func main() {
+func ChannelExample() {
 	ch := make(chan int)
 
 	go func() {
@@ -32,4 +34,11 @@ func main() {
 	for val := range ch {
 		fmt.Println(val)
 	}
+}
+
+func main() {
+	d := dictexample.Dictionary{}
+	d.Add("hello", "world")
+
+	controlflow.SwitchStatementExample()
 }
