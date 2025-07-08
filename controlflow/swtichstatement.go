@@ -1,6 +1,8 @@
 package controlflow
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func SwitchStatementExample() {
 	// Example of switch statement

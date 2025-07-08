@@ -3,11 +3,10 @@ package main
 import (
 	"fmt"
 
-	controlflow "github.com/gostjoke/Golang-Udemy/ControlFlow"
 	"github.com/gostjoke/Golang-Udemy/Iota"
 	"github.com/gostjoke/Golang-Udemy/Puppy"
 	"github.com/gostjoke/Golang-Udemy/ValueType"
-	"github.com/gostjoke/Golang-Udemy/dictexample"
+	"github.com/gostjoke/Golang-Udemy/channel"
 )
 
 func PuppyBark() {
@@ -37,8 +36,10 @@ func ChannelExample() {
 }
 
 func main() {
-	d := dictexample.Dictionary{}
-	d.Add("hello", "world")
+	// d := dictexample.Dictionary{}
+	// d.Add("hello", "world")
 
-	controlflow.SwitchStatementExample()
+	// controlflow.SwitchStatementExample()
+
+	channel.ChannelStateExample()
 }
