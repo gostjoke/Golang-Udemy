@@ -6,7 +6,7 @@ import (
 	"github.com/gostjoke/Golang-Udemy/Iota"
 	"github.com/gostjoke/Golang-Udemy/Puppy"
 	"github.com/gostjoke/Golang-Udemy/ValueType"
-	"github.com/gostjoke/Golang-Udemy/channel"
+	"github.com/gostjoke/Golang-Udemy/path_ex"
 )
 
 func PuppyBark() {
@@ -41,5 +41,8 @@ func main() {
 
 	// controlflow.SwitchStatementExample()
 
-	channel.ChannelStateExample()
+	// channel.ChannelStateExample()
+	// path_ex.PathExample()
+	path_ex.Godotenvtest()
+
 }
