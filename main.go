@@ -6,7 +6,7 @@ import (
 	"github.com/gostjoke/Golang-Udemy/Iota"
 	"github.com/gostjoke/Golang-Udemy/Puppy"
 	"github.com/gostjoke/Golang-Udemy/ValueType"
-	"github.com/gostjoke/Golang-Udemy/path_ex"
+	"github.com/gostjoke/Golang-Udemy/container"
 )
 
 func PuppyBark() {
@@ -43,6 +43,8 @@ func main() {
 
 	// channel.ChannelStateExample()
 	// path_ex.PathExample()
-	path_ex.Godotenvtest()
-
+	// path_ex.Godotenvtest()
+	// container introduce
+	// container.SliceArray()
+	container.HashmapExample()
 }
