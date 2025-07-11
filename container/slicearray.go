@@ -23,4 +23,7 @@ func SliceArray() {
 	slice2 = append(slice2, "f") // 添加元素到 slice2
 	fmt.Println("Updated Slice:", slice)
 	fmt.Println("Updated Slice2:", slice2)
+
+	// [...]int{7, 8, 9} = [3]int{7, 8, 9} // auto create
+
 }

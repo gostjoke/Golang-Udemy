@@ -6,7 +6,7 @@ import (
 	"github.com/gostjoke/Golang-Udemy/Iota"
 	"github.com/gostjoke/Golang-Udemy/Puppy"
 	"github.com/gostjoke/Golang-Udemy/ValueType"
-	"github.com/gostjoke/Golang-Udemy/container"
+	"github.com/gostjoke/Golang-Udemy/slicefun"
 )
 
 func PuppyBark() {
@@ -46,5 +46,14 @@ func main() {
 	// path_ex.Godotenvtest()
 	// container introduce
 	// container.SliceArray()
-	container.HashmapExample()
+	// container.HashmapExample()
+	// a := []int{1, 2, 3, 4, 5, 6}
+	// b := append(a[3:], a[1:]...)
+	// fmt.Println("Original slice:", b)
+	// slicefun.Reverse(b)
+	// fmt.Println("Modified slice:", b)
+	// slicefun.Makefun()
+	x := []float64{1.0, 2.0, 3.0, 4.0, 5.0}
+	fmt.Println("Median:", slicefun.Median(x))
+
 }
