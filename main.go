@@ -6,6 +6,7 @@ import (
 	"github.com/gostjoke/Golang-Udemy/Iota"
 	"github.com/gostjoke/Golang-Udemy/Puppy"
 	"github.com/gostjoke/Golang-Udemy/ValueType"
+	"github.com/gostjoke/Golang-Udemy/structexp"
 )
 
 func PuppyBark() {
@@ -54,5 +55,6 @@ func main() {
 	// slicefun.Makefun()
 	// x := []float64{1.0, 2.0, 3.0, 4.0, 5.0}
 	// fmt.Println("Median:", slicefun.Median(x))
-
+	// structexp.NewMap()
+	structexp.GetCar()
 }
