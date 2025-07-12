@@ -15,6 +15,12 @@ func HashmapExample() {
 	for key, value := range hashone {
 		fmt.Printf("Key: %s, Value: %s\n", key, value)
 	}
+	// check if key exists
+	if val, ok := hashone["key2"]; ok {
+		fmt.Printf("Key 'key2' exists with value: %s\n", val)
+	} else {
+		fmt.Println("Key 'key2' does not exist")
+	}
 
 	fmt.Printf("After Deletion Hashmap: %v\n, length is %v\n", hashone, len(hashone))
 
@@ -32,4 +38,13 @@ func HashmapExample() {
 		"key2": {4, 5, 6},
 	}
 	fmt.Printf("Hashmap with Slice Values: %v\n, length is %v\n", hashfour, len(hashfour))
+}
+
+func hangayan() {
+	han := true
+	if !han {
+		fmt.Println("Hangayan is good")
+	} else {
+		fmt.Println("Hangayan is not good to eat")
+	}
 }
