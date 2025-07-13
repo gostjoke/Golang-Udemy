@@ -3,6 +3,7 @@ package structexp
 import (
 	"fmt"
 	"strconv"
+	"time"
 )
 
 type Engine struct {
@@ -42,4 +43,20 @@ func GetCar() {
 		Color:   "Red",
 	}
 	fmt.Println(Car.Display())
+}
+
+func CreateMultCar(E Engine, CName ...string) []Car {
+	var cars []Car
+	for _, name := range CName {
+
+		cars = append(cars, Car{
+			Engine:  E,
+			CarName: name,
+			Brand:   "DefaultBrand",
+			Model:   "DefaultModel",
+			Year:    time.Now().Year(),
+			Color:   "DefaultColor",
+		})
+	}
+	return cars
 }

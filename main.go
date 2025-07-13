@@ -6,7 +6,7 @@ import (
 	"github.com/gostjoke/Golang-Udemy/Iota"
 	"github.com/gostjoke/Golang-Udemy/Puppy"
 	"github.com/gostjoke/Golang-Udemy/ValueType"
-	"github.com/gostjoke/Golang-Udemy/structexp"
+	"github.com/gostjoke/Golang-Udemy/interfacePolymorphism"
 )
 
 func PuppyBark() {
@@ -56,5 +56,17 @@ func main() {
 	// x := []float64{1.0, 2.0, 3.0, 4.0, 5.0}
 	// fmt.Println("Median:", slicefun.Median(x))
 	// structexp.NewMap()
-	structexp.GetCar()
+	// structexp.GetCar()
+	// Mycars := structexp.CreateMultCar(structexp.Engine{
+	// 	EngineName: "V8",
+	// 	EngineType: "Petrol",
+	// 	HorsePower: 450,
+	// }, "Car1", "Car2", "Car3")
+
+	// // fmt.Println("Created Cars:", Mycars)
+	// for _, car := range Mycars {
+	// 	fmt.Println(car.Display())
+	// }
+	// osDefer.DeferExample()
+	interfacePolymorphism.SpeechExp()
 }

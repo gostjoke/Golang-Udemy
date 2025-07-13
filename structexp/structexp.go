@@ -14,6 +14,10 @@ func (p Person) FullName() string {
 	return p.FirstName + " " + p.LastName
 }
 
+func (p Person) Speak() string {
+	return fmt.Sprintf("Hello, my name is %s %s and I am %d years old.", p.FirstName, p.LastName, p.Age)
+}
+
 func NewMap() {
 	p1 := Person{
 		FirstName: "Alice",
