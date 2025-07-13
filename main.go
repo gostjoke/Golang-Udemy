@@ -6,7 +6,7 @@ import (
 	"github.com/gostjoke/Golang-Udemy/Iota"
 	"github.com/gostjoke/Golang-Udemy/Puppy"
 	"github.com/gostjoke/Golang-Udemy/ValueType"
-	"github.com/gostjoke/Golang-Udemy/interfacePolymorphism"
+	"github.com/gostjoke/Golang-Udemy/interfacespolymorphstringer"
 )
 
 func PuppyBark() {
@@ -68,5 +68,9 @@ func main() {
 	// 	fmt.Println(car.Display())
 	// }
 	// osDefer.DeferExample()
-	interfacePolymorphism.SpeechExp()
+	// interfacePolymorphism.SpeechExp()
+
+	// interfacespolymorphstringer.BookExample()
+
+	interfacespolymorphstringer.WriterExample()
 }
