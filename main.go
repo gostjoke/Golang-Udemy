@@ -6,7 +6,6 @@ import (
 	"github.com/gostjoke/Golang-Udemy/Iota"
 	"github.com/gostjoke/Golang-Udemy/Puppy"
 	"github.com/gostjoke/Golang-Udemy/ValueType"
-	"github.com/gostjoke/Golang-Udemy/funcexample"
 )
 
 func PuppyBark() {
@@ -73,8 +72,10 @@ func main() {
 	// interfacespolymorphstringer.BookExample()
 
 	// interfacespolymorphstringer.WriterExample()
+	// interfaceCircle.ExampleCircle(12.12)
 	// funcexample.ExampleFunction()
 	// funcexample.Callback()
 	// funcexample.Closure()
-	funcexample.Fibonacci(0, 1, 100)
+	// funcexample.Fibonacci(0, 1, 100)
+
 }
