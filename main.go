@@ -6,6 +6,7 @@ import (
 	"github.com/gostjoke/Golang-Udemy/Iota"
 	"github.com/gostjoke/Golang-Udemy/Puppy"
 	"github.com/gostjoke/Golang-Udemy/ValueType"
+	"github.com/gostjoke/Golang-Udemy/pointer"
 )
 
 func PuppyBark() {
@@ -77,5 +78,13 @@ func main() {
 	// funcexample.Callback()
 	// funcexample.Closure()
 	// funcexample.Fibonacci(0, 1, 100)
-
+	// callback.Callback()
+	// a := 3.0
+	// pointer.Power2(&a)
+	// fmt.Println("Power of 2:", a)
+	// b := 12.0
+	// pointer.Power3(&b)
+	// fmt.Println("Power of 3:", b)
+	// pointer.Dereferencing()
+	pointer.DogExample()
 }
