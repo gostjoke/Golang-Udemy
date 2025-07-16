@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	"github.com/gostjoke/Golang-Udemy/Iota"
+	"github.com/gostjoke/Golang-Udemy/JsonMarshal"
 	"github.com/gostjoke/Golang-Udemy/Puppy"
 	"github.com/gostjoke/Golang-Udemy/ValueType"
-	"github.com/gostjoke/Golang-Udemy/pointer"
 )
 
 func PuppyBark() {
@@ -86,5 +86,7 @@ func main() {
 	// pointer.Power3(&b)
 	// fmt.Println("Power of 3:", b)
 	// pointer.Dereferencing()
-	pointer.DogExample()
+	// pointer.DogExample()
+	// packageconstraints.PackageExample()
+	JsonMarshal.MarshalExpample()
 }
