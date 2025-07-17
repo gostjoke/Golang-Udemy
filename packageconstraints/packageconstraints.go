@@ -31,5 +31,5 @@ func PackageExample() {
 	var n myAlisas = 5
 	fmt.Println("Adding generic integers with myAlisas:", addT(n, 10))
 	fmt.Println("Adding generic integers:", addT(5.1, 10.2))
-	fmt.Printf("Adding generic floats: %T", 2+2.2)
+
 }

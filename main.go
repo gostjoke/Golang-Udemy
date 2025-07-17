@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	"github.com/gostjoke/Golang-Udemy/Iota"
-	"github.com/gostjoke/Golang-Udemy/JsonMarshal"
 	"github.com/gostjoke/Golang-Udemy/Puppy"
 	"github.com/gostjoke/Golang-Udemy/ValueType"
+	"github.com/gostjoke/Golang-Udemy/slicefun"
 )
 
 func PuppyBark() {
@@ -88,5 +88,8 @@ func main() {
 	// pointer.Dereferencing()
 	// pointer.DogExample()
 	// packageconstraints.PackageExample()
-	JsonMarshal.MarshalExpample()
+	// JsonMarshal.MarshalExpample()
+	// writerinterface.WriteToConsole("Hello, World!\n")
+	// Sort Slice
+	slicefun.SortPersonExp()
 }
