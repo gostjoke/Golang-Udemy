@@ -5,8 +5,8 @@ import (
 
 	"github.com/gostjoke/Golang-Udemy/Iota"
 	"github.com/gostjoke/Golang-Udemy/Puppy"
+	"github.com/gostjoke/Golang-Udemy/RaceCondition"
 	"github.com/gostjoke/Golang-Udemy/ValueType"
-	"github.com/gostjoke/Golang-Udemy/slicefun"
 )
 
 func PuppyBark() {
@@ -91,5 +91,11 @@ func main() {
 	// JsonMarshal.MarshalExpample()
 	// writerinterface.WriteToConsole("Hello, World!\n")
 	// Sort Slice
-	slicefun.SortPersonExp()
+	// slicefun.SortPersonExp()
+	// Hash Example
+	// bcryptex.BcryptExample()
+	// concurrency.WaitGroupExample()
+	// concurrency.DocumentationExample()
+	RaceCondition.AtomicExample()
+
 }
