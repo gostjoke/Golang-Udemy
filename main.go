@@ -5,8 +5,8 @@ import (
 
 	"github.com/gostjoke/Golang-Udemy/Iota"
 	"github.com/gostjoke/Golang-Udemy/Puppy"
-	"github.com/gostjoke/Golang-Udemy/RaceCondition"
 	"github.com/gostjoke/Golang-Udemy/ValueType"
+	"github.com/gostjoke/Golang-Udemy/channel"
 )
 
 func PuppyBark() {
@@ -96,6 +96,9 @@ func main() {
 	// bcryptex.BcryptExample()
 	// concurrency.WaitGroupExample()
 	// concurrency.DocumentationExample()
-	RaceCondition.AtomicExample()
+	// RaceCondition.AtomicExample()
+	// channel.DirectionalChannelExample()
+	// channel.UseChannelExample()
+	channel.RangeChannelExample()
 
 }
