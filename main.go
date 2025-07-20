@@ -99,6 +99,7 @@ func main() {
 	// RaceCondition.AtomicExample()
 	// channel.DirectionalChannelExample()
 	// channel.UseChannelExample()
-	channel.RangeChannelExample()
+	// channel.RangeChannelExample()
+	channel.SelectExample()
 
 }
