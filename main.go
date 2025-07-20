@@ -1,3 +1,9 @@
+// =======================================
+// @File        : main.go
+// @Author      : Tien-Wei Hsu
+// @Description : Go Practice
+// =======================================
+
 package main
 
 import (
@@ -6,7 +12,7 @@ import (
 	"github.com/gostjoke/Golang-Udemy/Iota"
 	"github.com/gostjoke/Golang-Udemy/Puppy"
 	"github.com/gostjoke/Golang-Udemy/ValueType"
-	"github.com/gostjoke/Golang-Udemy/channel"
+	"github.com/gostjoke/Golang-Udemy/contextex"
 )
 
 func PuppyBark() {
@@ -100,6 +106,8 @@ func main() {
 	// channel.DirectionalChannelExample()
 	// channel.UseChannelExample()
 	// channel.RangeChannelExample()
-	channel.SelectExample()
+	// channel.SelectExample()
+	// channel.FanoutExample()
+	contextex.ContextExample()
 
 }

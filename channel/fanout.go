@@ -56,5 +56,6 @@ func fanOutIn(c1 <-chan int, c2 chan<- int) {
 // 這裡可以替換成實際的工作邏輯
 func timeConsumingWork(n int) int {
 	time.Sleep(time.Microsecond * time.Duration(rand.Intn(500)))
+	fmt.Println("Processing:", n)
 	return n + rand.Intn(1000)
 }
