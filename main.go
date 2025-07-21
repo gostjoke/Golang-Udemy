@@ -12,7 +12,7 @@ import (
 	"github.com/gostjoke/Golang-Udemy/Iota"
 	"github.com/gostjoke/Golang-Udemy/Puppy"
 	"github.com/gostjoke/Golang-Udemy/ValueType"
-	"github.com/gostjoke/Golang-Udemy/contextex"
+	"github.com/gostjoke/Golang-Udemy/recoverex"
 )
 
 func PuppyBark() {
@@ -80,10 +80,12 @@ func main() {
 
 	// interfacespolymorphstringer.WriterExample()
 	// interfaceCircle.ExampleCircle(12.12)
+
 	// funcexample.ExampleFunction()
 	// funcexample.Callback()
 	// funcexample.Closure()
 	// funcexample.Fibonacci(0, 1, 100)
+
 	// callback.Callback()
 	// a := 3.0
 	// pointer.Power2(&a)
@@ -100,14 +102,26 @@ func main() {
 	// slicefun.SortPersonExp()
 	// Hash Example
 	// bcryptex.BcryptExample()
+
 	// concurrency.WaitGroupExample()
 	// concurrency.DocumentationExample()
+
 	// RaceCondition.AtomicExample()
+
 	// channel.DirectionalChannelExample()
 	// channel.UseChannelExample()
 	// channel.RangeChannelExample()
 	// channel.SelectExample()
 	// channel.FanoutExample()
-	contextex.ContextExample()
 
+	// contextex.ContextExample()
+
+	// errorhandle.ErrorhandleExample()
+	// errorhandle.ErrorhandleExampleDocument()
+
+	//
+	// printlogging.CreateLogFile()
+	// printlogging.PrintLoggingExample()
+
+	recoverex.RecoverExample()
 }
