@@ -12,7 +12,7 @@ import (
 	"github.com/gostjoke/Golang-Udemy/Iota"
 	"github.com/gostjoke/Golang-Udemy/Puppy"
 	"github.com/gostjoke/Golang-Udemy/ValueType"
-	"github.com/gostjoke/Golang-Udemy/recoverex"
+	"github.com/gostjoke/Golang-Udemy/threeroutine"
 )
 
 func PuppyBark() {
@@ -123,5 +123,10 @@ func main() {
 	// printlogging.CreateLogFile()
 	// printlogging.PrintLoggingExample()
 
-	recoverex.RecoverExample()
+	// recoverex.RecoverExample()
+
+	// errorhandle.ErrorInfoExample(-4.0)
+
+	// atmocity.AtomcityExample()
+	threeroutine.ThreeroutineEX()
 }
