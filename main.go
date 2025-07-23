@@ -128,5 +128,6 @@ func main() {
 	// errorhandle.ErrorInfoExample(-4.0)
 
 	// atmocity.AtomcityExample()
-	threeroutine.ThreeroutineEX()
+	// threeroutine.ThreeroutineEX()
+	threeroutine.Factorialex(4)
 }
