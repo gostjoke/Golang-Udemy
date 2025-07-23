@@ -31,4 +31,6 @@ func TestSumsq(t *testing.T) {
 		}
 	}
 	// go test -v
+	// go test -cover
+	// coverage: 100.0% of statements
 }
